@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "outDir": "dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Recommended",
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "include": [
+        "source/**/*.ts",
+        "server.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        ".vscode"
+    ]
+}
