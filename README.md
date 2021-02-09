@@ -1,4 +1,3 @@
-# king-nicholas
 ## About
 ### Simple Clone of Stackoverflow RESTful API
 ### <a href="https://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank">What is a REST API?</a>
@@ -11,15 +10,14 @@ Each URL is called a <strong>request</strong> while the data sent back to you is
 2. Questions (asking and replying)
 3. Rating (upvoting and downvoting)
 ## Technologies Used
-This project has been built using recommended technologies as contained in the instructions guide.
+This project has been built using these recommended technologies.
 1. <a href="https://nodejs.org/en/" target="_blank">Node.js</a> 
 2. <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>
 3. <a href="https://expressjs.com/" target="_blank">Express</a> - a minimalistic web framework for Node.js
 4. <a href="https://www.mongodb.com/1" target="_blank">MongoDB</a> as choice database with <a href="https://mongoosejs.com/" target="_blank">Mongoose</a> as ODM
 5. <a href="https://jestjs.io/" target="_blank">Jest</a> as testing framework
 ## Documentation
-The API collections have been accurately documented using Postman.
-Click this <a href="https://documenter.getpostman.com/view/6586447/TVza8DHa" target="_blank">link</a> to <a href="https://documenter.getpostman.com/view/6586447/TVza8DHa" target="_blank">view</a> 
+The API collections was documented using Postman.
 ## Instructions on getting started
 Follow these simple steps below to get the project up and running on your computer:
 1. Clone the repository using `git clone` command in your GIT Bash terminal
@@ -31,6 +29,6 @@ Follow these simple steps below to get the project up and running on your comput
 7. You can use the popular Postman API client to start interaction with the API endpoints.
 ## Run tests using JEST
 Run `npm test` command from your git terminal.
-## Acknowledgment
-<a href="https://korapay.com/" target="_blank">Korapay</a>
+## Author
+<a href="https://www.linkedin.com/in/king-nicholas-96a68689/" target="_blank">Me</a>
 
