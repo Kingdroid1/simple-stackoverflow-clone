@@ -1,7 +1,7 @@
 #!/
 pipeline {
   agent any
- 
+  tools {nodejs "node"}
   environment {
         JWT_SECRET = 'RFSVRTVRSDeEFEW'
         SESSION_SECRET = 'justSome1890Secret'
@@ -16,7 +16,7 @@ pipeline {
       steps {
         sh 'npm --version'
         sh 'npm install'
-        sh 'npm start'
+        sh 'npm build'
       }
     }
     stage('test') {
