@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const secrets = {
-    MONGODB: "mongodb://localhost:27017/korapay",
+    MONGODB: "mongodb+srv://etzsuperadmin:uSccTg434BkWu12d@cluster0-ymgoz.mongodb.net/etzglobal",
     JWT_SECRET: <any>process.env.JWT_SECRET,
     SESSION_SECRET: <any>process.env.SESSION_SECRET,
     PORT: <any>process.env.PORT || 3000
