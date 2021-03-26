@@ -24,7 +24,9 @@ pipeline {
     }
     stage('test') {
       steps {
-        sh 'npm test'
+        nodejs(nodeJSInstallationName: 'NodeJS') {
+          sh 'npm test'
+        }
         echo 'Testing ...'
       }
     }
