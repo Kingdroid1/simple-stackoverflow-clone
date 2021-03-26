@@ -17,11 +17,13 @@ pipeline {
         sh 'npm --version'
         sh 'npm install'
         sh 'npm build'
+        echo 'Building ...'
       }
     }
     stage('test') {
       steps {
         sh 'npm test'
+        echo 'Testing ...'
       }
     }
   }
