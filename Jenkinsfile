@@ -1,7 +1,7 @@
 #!/
 pipeline {
   agent any
-  tools { NodeJS }
+  tools { NodeJS "14.15.3"}
   environment {
         JWT_SECRET = 'RFSVRTVRSDeEFEW'
         SESSION_SECRET = 'justSome1890Secret'
