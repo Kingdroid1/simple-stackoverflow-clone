@@ -22,13 +22,13 @@ pipeline {
         echo 'Building ...'
       }
     }
-    stage('test') {
-      steps {
-        nodejs(nodeJSInstallationName: 'NodeJS') {
-          sh 'npm test'
-        }
-        echo 'Testing ...'
-      }
-    }
+    // stage('test') {
+    //   steps {
+    //     nodejs(nodeJSInstallationName: 'NodeJS') {
+    //       sh 'npm test'
+    //     }
+    //     echo 'Testing ...'
+    //   }
+    // }
   }
 }
